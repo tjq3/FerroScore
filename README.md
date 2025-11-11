@@ -11,7 +11,7 @@ FerroScore converts transcriptomic data into quantitative ferroptosis metrics. T
 # Code Structure
 The respository mainly consists of the following modules:
 
-- `inst` contains PPI files for both mouse and humans.
+- `inst` provides PPI files for both mouse (Mus musculus) and human (Homo sapiens) species.
 - `calculate_ferroptosis.R` is used to calculate the ferroptosis score for individual samples (tissues or cells). This function performs differential expression analysis, constructs the corresponding PPI network, conducts module identification and functional annotation, extracts the ferroptosis-related network from it, calculates the topological features of this network, and thereby derives the ferroptosis score.
 - `run_ferroptosis_analysis.R` is used to run ferroptosis analysis for multiple samples (tissues or cells).
 - `data` contains the dataset used for benchmarking FerroScore on the experimental dataset, using AA as an example.
