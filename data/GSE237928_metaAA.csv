@@ -1,0 +1,5 @@
+sample_id,group
+mRNA_NT_1,control
+mRNA_NT_2,control
+mRNA_AA_1,treated
+mRNA_AA_2,treated

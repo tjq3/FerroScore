@@ -1,0 +1,27 @@
+Package: FerroScore
+Type: Package
+Title: Calculate Ferroptosis Score from Transcriptomic Data
+Version: 0.1.0
+Author: Jiaqi Teng
+Maintainer: Jiaqi Teng <tengjq3@mail2.sysu.edu.cn>
+Description: FerroScore is a package that quantifies ferroptosis activity based on transcriptomic data (RNA-seq or scRNA-seq). It enables quantitative assessment in individual samples or single cells by systematically integrating key molecular features and network topology related to ferroptosis.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Depends:
+    R (>= 3.6.0)
+Imports:
+    edgeR,
+    stringr,
+    igraph,
+    ggraph,
+    STRINGdb,
+    dplyr,
+    clusterProfiler,
+    org.Mm.eg.db,
+    org.Hs.eg.db,
+    enrichplot,
+    ggplot2,
+    GOplot,
+    openxlsx
+RoxygenNote: 7.3.2
